@@ -3,7 +3,7 @@
 Route::group(['middleware' => 'web'], function () {
 
     Route::get('/privat')
-        ->uses('Code16\Privat\Controllers\PrivatController@index');
+        ->uses('Code16\Privat\Controllers\PrivatController@index1');
 
     Route::post('/privat')
         ->uses('Code16\Privat\Controllers\PrivatController@store');
